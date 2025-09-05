@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <style>
+    body{
+        background-color:lightgrey;
+    }
+    li {
+      list-style-type: none;
+      color: black;
+      font-size: 18px;
+      margin: 5px;
+      background: lightblue;
+      padding: 5px;
+      border-radius: 5px;
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      
+    }
+    button:hover{
+      margin-left: 10px;
+      background: Navy;
+      color: white;
+      border: none;
+      padding: 4px 8px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>TO DO LIST</h1>
+    <input id="taskInput" type="text" placeholder="Type a task">
+    <button id="addBtn">Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="pro2.js"></script>
+</body>
+</html>
